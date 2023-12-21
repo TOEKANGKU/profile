@@ -20,7 +20,7 @@ const Contact = () => {
 
   const onSubmitMessage = async () => {
     try {
-      const response = await fetch('https://toekangku-backend-5mballdzpa-et.a.run.app/v1/frontoffice/help/send', options);
+      const response = await fetch('https://backend-5mballdzpa-et.a.run.app/v1/frontoffice/help/send', options);
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
